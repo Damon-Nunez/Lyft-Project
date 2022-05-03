@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Todolist</title>
+</head>
+<body>
+  <h1>My ToDo List</h1>
+  <!-- FORM TO CREATE TODOS HERE -->
+  <form id="create-todo-form">
+    <fieldset>
+      <legend>Create New ToDo</legend>
+
+      <label for="description">ToDo Description</label>
+      <input type="text" id="description" placeholder="description" required name="description"></input>
+
+      <input type="submit" value="Create Todo" />
+    </fieldset>
+  </form>
+
+  <!-- TODOS  LIST -->
+  <ul id="todos-list"></ul>
+
+  <script src="./index.js"></script>
+</body>
+</html>
